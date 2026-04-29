@@ -64,3 +64,4 @@ rkaiq/algos/aeis/linux/
 rkaiq/algos/ablcV32/linux/
 rkaiq/output/
 rkisp_demo/deps
+**/build/**

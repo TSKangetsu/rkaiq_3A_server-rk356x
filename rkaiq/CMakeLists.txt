@@ -1089,11 +1089,11 @@ set_target_properties(rkaiq_tmp PROPERTIES CLEAN_DIRECT_OUTPUT 1)
 add_dependencies(rkaiq_tmp j2s_parser)
 
 if (RKAIQ_BUILD_BINARY_IQ)
-    add_dependencies(rkaiq_tmp j2s4b)
+    # add_dependencies(rkaiq_tmp j2s4b)
 endif()
 
 if (RKAIQ_J2S4B_DEV)
-    add_dependencies(rkaiq_tmp j2s4b_dev)
+    # add_dependencies(rkaiq_tmp j2s4b_dev)
 endif()
 
 add_library(rkaiq SHARED ${RK_AIQ_SRC})
